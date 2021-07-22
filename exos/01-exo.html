@@ -5,16 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>cascading style sheet</title>
-    <!-- style dans l'en-tete -->
+    <!-- lien externe vers la feuille_style.css ; ce lien peut etre commun à toutes les pages de mon site et me permet de centraliser les styles     -->
+    <link rel="stylesheet" href="css/01-style.css">
+    <!-- style dans l'en-tete si j'ai du style dans l'en tete c'est que sur cette page j'ai besoin des styles propres à cette page -->
     <style>
-        body{
-            background-color: pink;
-        }
+        /* élément{ propriété: valeur} */
+       
         /* background-color: #fff; */
         li {
             background-color: rgb(241, 240, 170);
         }
-        ul {background-color: seagreen;
+        ul {background-color: #fff;
+            color:red;
+        }
+        a {
+            background-color: #fff;
+            text-decoration: none;
         }
         /* ul {bgc} */ 
     </style>
@@ -25,15 +31,20 @@
     <p>il existe 3 moyens de faire du style à l'aide du CSS :</p>
     <!-- ul>li*3{$/} -->
     <ul>
+        <!-- et ce style au plus proche de l'élement sera une exception -->
         <li style="color: blue;">1/Le style en ligne</li>
         <li>2/Le style dans l'en-tete (dans la balise <code>&lt;head&gt;</code>) </li>
         <li>3/Le style dans une feuille de style externe. </li>
     </ul>
 
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, numquam harum inventore amet saepe quas provident laboriosam enim fuga, at obcaecati facilis est voluptatibus! <a href="#" title="Voluptatum" target"_blank">Voluptatum</a> commodi quos rem! Debitis, laboriosam.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, numquam harum inventore amet saepe quas provident laboriosam enim fuga, at obcaecati facilis est voluptatibus! <a href="#" title="Voluptatum" target="_blank">Voluptatum</a> commodi quos rem! Debitis, laboriosam.</p>
 
-    <p>Lien vers <a style="text-decoration :none;" href="https://www.lemonde.fr/"  target="_blank" title="Le monde">Le monde</a>
+    <p> 1/COURRIER NEW: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur harum laborum, ex eaque, saepe optio itaque voluptate praesentium repellat accusantium nisi aliquid ipsam autem. Quidem quia quasi labore consequatur ipsum! </p>
 
+    <p id="times"> 2/ COURRIER NEW: Lorem ipsum dolor sit amet, consectetur adipisicing elit. At quam voluptatem odio, ipsam ullam facere sit rem soluta dolor corrupti. Ipsum quae ratione ad omnis soluta, earum eligendi qui sapiente.</p>
+
+    Lien vers <a target="_blank" href=https://www.lemonde.fr/>www.leparisien.fr</a>
+    
     
 </body>
 </html>

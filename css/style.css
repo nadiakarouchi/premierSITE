@@ -1,0 +1,56 @@
+/* les styles pour le premier style */
+
+/* les typo google font utilisés dans le site */
+
+/* Anton; oswald; lemonada */
+
+ /* font-family: 'Anton' , sans-serif;
+    font-family: 'lemonada' ; cursive;
+    font-family: 'oswald' , sans-serif; */
+    /* background-color: plum; */
+    body {
+font-family: 'oswald' , sans-serif;
+    }
+
+
+/* les titres du site */
+
+h1 {
+    /* typo google */
+    font-family: 'Anton' , sans-serif;
+    /* *taille de typo */
+
+    font-size: 45px;
+    /* espacement entres les litres */
+
+    letter-spacing: 1px;
+    /* coleur réference héxadécimale */
+    color: #2980b9;
+}
+h2{
+    font-size: 35px;
+    color: #2c3e50;
+    /* epaisseur des caractères */
+    font-weight: bolder;
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+
+    /* https://developer.mozilla.org/fr/docs/Web/CSS/text-shadow */
+}
+
+/* taille de l'îcone dans h2 */
+
+/* i enfant de h2 , l'îcone sera 150% plus grande que la taille d'origine */
+h2 {
+    font-size: 150%;
+}
+h3 {
+    font-size: 22px;
+    color: rgb(177, 64, 143);
+    text-shadow: 1px 1px 2px #2980b9;
+}
+h4 {
+    text-align: center;
+}
+blockquote {
+    font-family: 'lemonada' , cursive;
+}

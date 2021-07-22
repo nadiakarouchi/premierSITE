@@ -8,19 +8,38 @@ body{
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+h1 {
+    /* taille de typo, en px en unités absolues */
+font-size: 80px;
+}
+
+h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+h3 {
+    font-size: 20px;
+    /* text-transform: capitalize; */
+    /* pur majuscel */
+}
+
 h1, h2, h3{
     text-align: center;
     color: tomato;
 }
-p
-{
+
+p {
 background-color: #fff;
 }
+
 /* pour cibler le ou les élements qui a l'id "travail" j'écris #travail  */
+
 #travail {
     background-color: #000;
     color: white;
 }
+
 /* pour cibler le ou les élements qui ont la class "vacances" j'écris .vacances */
 /* pour déclarer une classe on précède le nom de la classe d'un point */
 

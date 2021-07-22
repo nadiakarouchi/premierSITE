@@ -1,0 +1,11 @@
+/* ma première feuille de style */
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: pink;
+}
+
+#times 
+{
+    font-family: 'Times New Roman', Times, serif;
+}
