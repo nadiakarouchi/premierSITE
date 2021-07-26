@@ -8,6 +8,36 @@
     font-family: 'lemonada' ; cursive;
     font-family: 'oswald' , sans-serif; */
     /* background-color: plum; */
+    @charset "UTF-8";
+    /* les styles pour le premierSITE Nadia karouchiChantier Suresnes */
+
+/* reset simple  */
+/* l'étoile signifie tout all */
+*{
+    box-sizing: border-box;
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+ /* fin de  reseet simple */
     
     body {
         /* image de fond */
@@ -27,9 +57,9 @@ h1 {
     font-size: 45px;
     /* espacement entres les litres */
 
-    letter-spacing: 1px;
+     letter-spacing: 1px; 
     /* coleur réference héxadécimale */
-    color: #2980b9;
+    color: #5e4477;
 }
 h2{
     font-size: 35px;
@@ -61,6 +91,39 @@ blockquote {
 }
 blockquote i{
     font-size: 350%;
-    color: #2980b9;
+    color: #2a51d1;
     vertical-align: middle;
+}
+
+/* a compléter position */
+/* header dans la page index */
+header {
+     height: 175px;
+    background-color:#719bc5;
+}
+/* dans le header; les trois zones suivantes flottent toutes les trois à gauche elles ont une largeur en %, danc une largeur relatives à l'élement parent dans header */
+
+#logo {
+    width: 25%;
+    float: left;
+    background-color: #719bc5;
+    /* padding:marge intérieur de l'élement paddin=rembourrage */
+    padding: 15px;
+   /* le texte */
+    text-align: center;
+}
+#slogan {
+    width: 25%;
+    float: left;
+    background-color: #719bc5;
+}
+#social {
+width: 25%;
+float: left;
+background-color: #719bc5;
+}
+
+/* la class clear pour rétablir le flux */
+.clear{
+clear: both;
 }
