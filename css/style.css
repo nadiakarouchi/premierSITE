@@ -52,18 +52,19 @@ font-family: 'oswald' , sans-serif;
 h1 {
     /* typo google */
     font-family: 'Anton' , sans-serif;
+
     /* *taille de typo */
-
     font-size: 40px;
-    /* espacement entres les litres */
 
+    /* espacement entres les lettres */
      letter-spacing: 1px; 
+
     /* coleur réference héxadécimale */
-    color: #5e4477;
+    color: #2980b9;
 }
 h2{
     font-size: 35px;
-    color: #2c3e50;
+    color: #2980b9;
     /* epaisseur des caractères */
     font-weight: bolder;
     text-shadow: 1px 1px 2px rgb(199, 233, 135), 0 0 1em blue, 0 0 0.2em rgb(145, 235, 235);
@@ -79,7 +80,7 @@ h2 {
 }
 h3 {
     font-size: 22px;
-    color: rgb(86, 69, 126);
+    color: rgb(96, 183, 223);
     text-shadow: 1px 1px 2px #2980b9;
 }
 h4 {
@@ -102,18 +103,19 @@ blockquote i{
 /* header dans la page index */
 header {
      height: 175px;
-    background-color:#719bc5;
+     background-color:#719bc5;
 }
 /* dans le header; les trois zones suivantes flottent toutes les trois à gauche elles ont une largeur en %, danc une largeur relatives à l'élement parent dans header */
 
 #logo {
-    width: 25%;
-    float: left;
-    background-color: #719bc5;
-    /* padding:marge intérieur de l'élement paddin=rembourrage */
-    padding: 15px;
+     width: 25%;
+     float: left;
+     padding: 15px;
+     background-color: #719bc5;
+    /* padding:marge intérieur de l'élement padding=rembourrage */
+    
    /* le texte */
-    text-align: center;
+     text-align: center;
 }
 #slogan {
     width: 50%;
@@ -121,21 +123,68 @@ header {
     background-color: #719bc5;
 }
 #social {
-width: 25%;
-float: left;
-background-color: #719bc5;
+    width: 25%;
+    float: left;
+    background-color: #719bc5;
 }
-#social i{
-    /* je change la nature de l'élement i qui est de type inline; en un élement de type block */
 
-    display: block;
+#social i { /* ici on cible un élément i dont le parent à l'id "social" */
+    display: block; /* je change la nature de l'élément i qui est de type inline, en un élément de type block */
     padding: 15px 30px 0 0;
-
     font-size: 30px;
     text-align: right;
 }
 
-/* la class clear pour rétablir le flux */
-.clear{
-clear: both;
+header a {
+    text-decoration: none;
+    color: #10828c;
+}
+
+/* fin header */
+
+/* la nav. la navigation */
+nav {
+    height: 70px;
+    padding: 15px;
+    background-color: #2980b9;
+    border-bottom: 8px solid #6acafc;
+     /* une bordure en bas */
+    text-align: center;
+}
+nav a{
+    margin: 10px;
+    padding: 2px 10px;
+    background-color: #6acafc;
+    border: 2px solid #fff;
+    /* arrondi des angles des bordures */
+    border-radius: 10px 0;
+    font-family: 'oswald', sans-serif;
+    font-size: 16px;
+    color: #2c3e50;
+    text-decoration: none; /* text-decoration: none=>pas decoration sur le texte  et pas de soulignement; */
+    transition: 0.5s;/* transition sur la nav a, marche avec le a :hover */
+}
+nav a:hover{ /* hover une pseudo-class un effet au survol de curseus */
+    background-color: #a6d6c3;
+    color: #fff;
+    /* sa donne coleur quand passe souris dessus */
+}
+/* fin navigation */
+/* les zones principale*/
+main {
+    width: 1000px;
+    margin: 0 auto;
+    /* une coleur en rgba : red green blue avec  */
+    background-color: rgba(178, 178, 178, 0.178);
+}
+aside {
+    height: 250px;
+    width: 30%;
+    float: left;
+    background-color: #a6d6c3;
+}
+
+
+    .clear{ /* la class clear pour rétablir le flux */
+     clear: both;
 }
