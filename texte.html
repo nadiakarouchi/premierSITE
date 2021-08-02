@@ -15,65 +15,60 @@
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Anton&family=Lemonada:wght@400;500&family=Oswald:wght@400;500&display=swap" rel="stylesheet"> 
-		
-		<link rel="stylesheet" href="css/style.css">
-
 		<!-- à compléter, feuille de style css, typo etc. -->
+
+	    <link rel="stylesheet" href="css/style.css">
 		 <!-- fontAwesome typo -->
-<!-- nous chargeons en CDN (content delivery network)le typo font awesome; la version gratuite; qui comporte 1600 îcones. -->
+
+
 		 <script src="https://kit.fontawesome.com/727382d2b0.js" crossorigin="anonymous"></script>
 		
+		
    </head>
-	<body>
-		<!-- en-tete de la page-->
-		<header>			
-			<div id="logo">
-				<!-- le bouton et le lien vers l'ancre #logo -->
-				<a href="#logo">
-					<button type="button"><i class="fas fa-arrow-circle-up"></i></button>
-				</a>
-				<img src="img/logo.png" alt="logo html 5 et css 3">
-			</div>
+ <body>
+	   <!-- en-tete de la page-->
+	<header>			
+		<div id="logo">
+			<!-- le bouton et le lien vers l'ancre #logo -->
+			<a href="#logo">
+				<button type="button"><i class="fas fa-arrow-circle-up"></i></button>
+			</a>
+			<img src="img/logo.png" alt="logo html 5 et css 3">
+		</div>
 
-			<div id="slogan">
-				<a href="index.html">
-					<h1>Mon premier site en HTML 5 et CSS 3</h1>
-				</a>
-			</div>
-			
+		<div id="slogan">
+			<a href="index.html">
+				<h1>Mon premier site en HTML 5 et CSS 3</h1>
+			</a>
+		</div>
 			<div id="social">
 				<a href="https://www.instagram.com/lagencesuresnes/" target="_blank"><i class="fab fa-instagram"></i></a>
 				<a href="" target="_blank"><i class="fab fa-facebook-square"></i></a>
 			</div>
 			<div class="clear"></div>
-			
+	</header>
+    <!-- fin header -->
 			<!-- zone du menu avec des liens simples pour faire notre menu  -->
+			<nav>
+				<div>
 			<a href="index.html" title="HTML 5 CSS 3 - Accueil">Accueil</a>
-			<a href="texte.html" title="HTML 5 CSS 3 - Texte">texte</a>
+			<a href="texte.html" title="HTML 5 CSS 3 - Texte" class="active">texte</a>
 			<a href="selecteur.html" title="HTML 5 CSS 3 - Sélecteur">Sélecteur</a>
 			<a href="image.html" title="HTML 5 CSS 3 - Image">Image</a>
 			<a href="position.html" title="HTML 5 CSS 3 - Position">Position</a>
 			<a href="zoning.html" title="HTML 5 CSS 3 - zoning">zoning</a>
-			<a href="tableau" title="HTML 5 CSS 3 - Tableau">Tableau</a>
+			<a href="tableau.html" title="HTML 5 CSS 3 - Tableau">Tableau</a>
 			<a href="liste.html" title="HTML 5 CSS 3 - Liste">liste</a>
-			<a href="liens.html" title="HTML 5 CSS 3 - lien">Lien</a>
+			<a href="lien.html" title="HTML 5 CSS 3 - lien">Lien</a>
 			<a href="formulaire.html" title="HTML 5 CSS 3 - formulaire">Formulaire</a>
 			<a href="multimedia.html" title="HTML 5 CSS 3 - Multimédia">Multimédia</a>
 			<a href="animation.html" title="HTML 5 CSS 3 - Animation">Animation</a>
 			<a href="recaptitulatif.html" title="HTML 5 CSS 3 - récaptitulatif">récaptitulatif</a>
 		</div>
-	
-
-		
-	 </header>
-		<!-- fin header -->
-
-		<nav>
-			<p>ici la navigation</p>
-	   </nav>
+	</nav>
 		   <!--  fin de nav -->
-		   <!-- contenu principale -->
 
+		   <!-- contenu principale -->
 		<main>
 			<aside>
 
@@ -102,15 +97,12 @@
 						<p> cette fille <small>ma petite sidra</small>, et celui-là est la plus grand de ma soeur <grand>hidaya !</grand></p>
 
 				</div>
-				
-				
 			</section>
-
 		</main>
 
 		<footer>
 			<p>&copy; L'agence Suresnes 2021</p>
 
 		</footer>
-  
+  </body>
 		</html>

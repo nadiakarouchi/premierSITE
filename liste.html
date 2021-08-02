@@ -6,46 +6,49 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="description" content="site d'apprentissage du HTML 5 et du CSS 3 _ colombbus suresnes 2021 ">
 		
-		<meta name="keywords" content="premier site, colombbus, suresnes, l'agence suresnes, lagencesuresnes, HTML 5, CSS 3, nadia karouchi, developpeuse web , et web mobile">
-		
+        <meta name="keywords" content="premier site, colombbus, suresnes, l'agence suresnes, lagencesuresnes, HTML 5, CSS 3, nadia karouchi, developpeuse web , et web mobile">
+		<!-- l'auteur de la page  -->
 		<meta name="author" content="nadia karouchi">
 
-		<title>Mon premier site en HTML 5 et en CSS 5 - TEXTE HTML</title>
+		<title>Mon premier site en HTML 5 et en CSS 5 - accueil</title>
 
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Anton&family=Lemonada:wght@400;500&family=Oswald:wght@400;500&display=swap" rel="stylesheet"> 
-        <link rel="stylesheet" href="css/style.css">
-
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Anton&family=Lemonada:wght@400;500&family=Oswald:wght@400;500&display=swap" rel="stylesheet"> 
 		<!-- à compléter, feuille de style css, typo etc. -->
-        <!-- nous chargeons en CDN (content delevry network) la typo font awesome, la version gratuite, qui comporte 1600 icones. -->
-        <!-- fontAwesome typo -->
-        <script src="https://kit.fontawesome.com/727382d2b0.js" crossorigin="anonymous"></script>
+
+	    <link rel="stylesheet" href="css/style.css">
+		 <!-- fontAwesome typo -->
+
+
+		 <script src="https://kit.fontawesome.com/727382d2b0.js" crossorigin="anonymous"></script>
+		
 		
    </head>
-	<body>
-        <!-- en-tete de la page-->
-		<header>			
-			<div id="logo">
-				<!-- le bouton et le lien vers l'ancre #logo -->
-				<a href="#logo">
-					<button type="button"><i class="fas fa-arrow-circle-up"></i></button>
-				</a>
-				<img src="img/logo.png" alt="logo html 5 et css 3">
-			</div>
+ <body>
+	   <!-- en-tete de la page-->
+	<header>			
+		<div id="logo">
+			<!-- le bouton et le lien vers l'ancre #logo -->
+			<a href="#logo">
+				<button type="button"><i class="fas fa-arrow-circle-up"></i></button>
+			</a>
+			<img src="img/logo.png" alt="logo html 5 et css 3">
+		</div>
 
-			<div id="slogan">
-				<a href="index.html">
-					<h1>Mon premier site en HTML 5 et CSS 3</h1>
-				</a>
-			</div>
-			
+		<div id="slogan">
+			<a href="index.html">
+				<h1>Mon premier site en HTML 5 et CSS 3</h1>
+			</a>
+		</div>
 			<div id="social">
 				<a href="https://www.instagram.com/lagencesuresnes/" target="_blank"><i class="fab fa-instagram"></i></a>
 				<a href="" target="_blank"><i class="fab fa-facebook-square"></i></a>
 			</div>
 			<div class="clear"></div>
-	
+	</header>
+    <!-- fin header -->
+    <nav>
         <div>
             <!-- zone du menu avec des liens simples pour faire notre menu  -->
             <a href="index.html" title="HTML 5 CSS 3 - Accueil">Accueil</a>
@@ -54,45 +57,50 @@
             <a href="image.html" title="HTML 5 CSS 3 - Image">Image</a>
             <a href="position.html" title="HTML 5 CSS 3 - Position">Position</a>
             <a href="zoning.html" title="HTML 5 CSS 3 - zoning">zoning</a>
-            <a href="tableau" title="HTML 5 CSS 3 - Tableau">Tableau</a>
-            <a href="liste.html" title="HTML 5 CSS 3 - Liste">liste</a>
+            <a href="tableau.html" title="HTML 5 CSS 3 - Tableau">Tableau</a>
+            <a href="liste.html" title="HTML 5 CSS 3 - Liste" class="active">liste</a>
             <a href="lien.html" title="HTML 5 CSS 3 - lien">Lien</a>
             <a href="formulaire.html" title="HTML 5 CSS 3 - formulaire">Formulaire</a>
             <a href="multimedia.html" title="HTML 5 CSS 3 - Multimédia">Multimédia</a>
             <a href="animation.html" title="HTML 5 CSS 3 - Animation">Animation</a>
             <a href="recaptitulatif.html" title="HTML 5 CSS 3 - récaptitulatif">récaptitulatif</a>
-        </div>
-	</div>
-
+            </div>
+	    </nav>
+        <!-- fin nav -->
 		
-	 </header>
-		<!-- fin header -->
-        <main>
-            <h2>Les listes <i class="fas fa-list-ol"></i> </h2>
-            <section>
-                <h3><i class="fas fa-stream"></i>Les listes avec la balise <code>&lt;ul&gt;</code></h3>
-                <ul>
+    <main>
+         <section>
+            <h2>Les listes -  <i class="fa fa-list-ul"></i> </h2>
+            <h3>Les listes avec la balise <code>&lt;ul&gt;</code></h3>
+            <p>les fruits que je préfère</p>
+            <!-- ul:unordered list ; liste non ordonnée ou liste à puce -->
+                <ul class="fruit">
                     <!-- li : liste item ; un élément de liste -->
-                    <li>fraise</li>
-                    <li>pastique</li>
-                    <li>abricot</li>
-                    <li>nectarine</li>
-                </ul>
+                <li><i class="far fa-hand-spock">
+                </i>nectarine</li>
+                <li><i class="far fa-hand-spock">
+                </i>pastique</li>
+                <li<i class="far fa-hand-spock">
+                </i>abricot</li>
+                <li><i class="far fa-hand-spock">
+                </i>fraise</li> </ul>
+               
+
                 <h3>Les listes de balise <code>&lt;ol&gt;</code></h3>
-                <p><u>dans l'ordre les fruits</u> &rArr; que j'aime beaucoup</p>
+                <p><u>les fruits dans l'ordre de préférence </u> &rArr; que j'aime beaucoup</p>
+                
                 <!-- ol : ordre list ; liste ordonnée ou liste numérotée -->
-            </section>
-            <ol>
+            
+            <ol class="fruit-2">
                 <li>nectarine</li>
                 <li>pastique</li>
                 <li>abricot</li>
                 <li>fraise</li>
-                
              </ol>
             <h3>les listes imbriquées</h3>
             <!-- ul>li*6-->
-            <ul>
-                <li><u><mark>afrique</mark></u>
+            <ul class="imbriquee">
+                <li class="affiche"><u><mark>afrique</mark></u>
                     <ul>
                         <li>kango</li>
                         <li>maroc</li>
@@ -101,7 +109,7 @@
                     </ul>
                 </li>
         
-                <li><u><mark>amérique</mark></u>
+                <li class="affiche"><u><mark>amérique</mark></u>
                     <ul>
                         <li>brésil</li>
                         <li>chili</li>
@@ -109,7 +117,7 @@
                         <li>guyana</li>
                         </ul>
                 </li>
-                <li><u><mark>asie</mark></u>
+                <li class="affiche"><u><mark>asie</mark></u>
                     <ul>
                         <li>afghanistan</li>
                         <li>l'inde</li>
@@ -117,7 +125,7 @@
                         <li>japon</li>
                         </ul>
                 </li>
-                <li><u><mark>europ
+                <li class="affiche"><u><mark>europ
                 </mark></u><ul>
                         <li>france</li>
                         <li>allemegne</li>
@@ -125,7 +133,7 @@
                         <li>belgique</li>
                         </ul>
                 </li>
-                <li><u><mark>océanie</mark></u>
+                <li class="affiche"><u><mark>océanie</mark></u>
                     <ul>
                         <li>tonga</li>
                         <li>australie</li>
@@ -135,8 +143,9 @@
                 </li>
                 <li><u><mark>antractique</mark></u>
             </ul>
+            
            
-
+            </section>
         </main>
         <footer>
             <p>&copy; L'agence Suresnes 2021</p>

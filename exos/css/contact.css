@@ -1,0 +1,62 @@
+
+
+.tableau table, .tableau td {
+    border: 2px solid #205d67;
+}
+.tableau table {
+    width: 80%;
+    margin: auto;
+    /* padding: 5px; */
+    border-collapse: collapse;
+}
+.tableau td {
+    padding: 10px;
+    text-align: left;
+    vertical-align: middle;
+}
+.tableau thead {
+    border: 1px solid #2a51d1;
+}
+.tableau caption {
+    height: 50px;
+    padding-left: 5px;
+    background: #e7dcf0;
+    border: 1px solid #671975;
+    font-size: 40px;
+    text-align: center;
+    color: #181e33;
+}
+.tableau tr {
+    background-color: #fff;
+    color: navy;
+    font-size: 15px;
+  
+}
+#nadia, #miredi, #fatima, #vanusa
+ {
+background-color:pink;
+}
+#patrick, #redha, #sleyter, #mostapha, #bicson, #rachid, #arnold, #imran, #vincent {
+    background-color: skyblue;
+}
+#patrick {
+    background-color: lightblue;
+}
+h2 {
+    background-color: rgb(221, 176, 176);
+    text-align: center;
+    border: 2px solid #671975;
+    height: 50px;
+    padding: 10px;
+    margin: 30px;
+    
+}
+#list {
+    background-color: rgba(202, 195, 196, 0.473);
+    font-size: 25px;
+}
+#social {
+    width: 100%;
+    float: left;
+    
+}
