@@ -389,7 +389,7 @@ display: block;
 }
 /* fin listes */
 
-/* page de line */
+/* page de lien */
 
 /* les ancres en haut de la page */
 .ancre {
@@ -479,6 +479,86 @@ display: block;
 #menu-deroulant ul {
 text-align: center;
 }
+/* formulaire */
+form {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px 0 20px 100px;
+
+    background:#80bceb;
+    border-radius: 20px;
+}
+textarea {
+    resize: none;
+}
+label {
+    margin: 20px 10px;
+}
+/* fin formulaire */
+
+/* multimedia */
+/* pour la video youtube */
+iframe[src="https://www.youtube-nocookie.com/embed/nkj4RCcR0CY"]{
+    width: 100%;
+}
+/* pour les iframes */
+iframe[allowullscreen] {
+    width: 100%; /* width==>hauteur */
+}
+.bordure{
+    width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 10px solid crimson;
+}
+/* pour la vidéo de fond */
+.video-fond {
+    padding-left: 0;
+    padding-right: 0;
+}
+.video-fond video {
+    position:absolute ;
+    width: 80%;
+    /* l'empilement de z-index : le 1 est le niveau le plus bas dans l'ordre d'empilement : le z-order*/
+    z-index: 1;
+}
+
+
+/* Un élément positionné de façon absolue est un élément dont la propriété de position calculée est absolute ou fixed. Dans ce cas, les propriétés top, bottom, right et left indiquent les distances entre les bords de l'élément et les bords du bloc englobant (c'est-à-dire l'ancêtre par rapport auquel l'élément est positionné). Si l'élément possède des marges, elles sont ajoutées aux décalages. */
+
+.video-texte {
+    position: relative;
+     /* la position relative permet de décaler un élément par rapport à sa position normale */
+    width: 100%;
+    height: 500px;
+    /* border: darkmagenta 10px solid; */
+}
+.video-fond p {
+    position: absolute;
+    z-index: 2;
+   width: 500px;
+   margin: auto;
+   left: 200px;
+   top: 200px;
+   padding: 20px;
+   border-radius: 15px;
+   background: rgba(255, 255, 255, 0.60);
+   font-size: 120%;
+   text-align: center;
+
+}
+
+ 
+    
+
+
+
+
+
+
+
+
+
 
 /* la class clear pour rétablir le flux */
     .clear{ 
