@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(172, 151, 112);
+}
+header {
+    float: left;
+    width: 1200px;
+    background-color: pink;
+    box-sizing: border-box;
+    text-align: center;
+}
+main {
+    width: 1200px;
+    margin: auto;
+    box-sizing: border-box;
+}
+#gauche {
+    float:left;
+    background-color: springgreen;
+    width: 200px;
+    height:600px;
+    box-sizing: border-box;
+    text-align: center;
+}
+#droite {
+    float:right;
+    background-color: springgreen;
+    width: 200px;
+    height: 600px;
+    box-sizing: border-box;
+    text-align: center;
+}
+section {
+    float: left;
+    width: 800px;
+    height: 600px;
+    background-color: turquoise;
+    box-sizing: border-box;
+    text-align: center;
+}
+h3 {
+    margin: 0;
+}

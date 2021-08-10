@@ -1,0 +1,60 @@
+/* zoning 7 nadia karouchi */
+body {
+    background-color: #eee8aa;
+}
+main {
+    background-color: #ff4500;
+    color: white;
+    text-align: center;
+    height: 700px;
+    width: 1000px;
+    margin: auto;
+}
+header {
+    float: left;
+    width: 1000px;
+    height: 100px;
+    background-color: #40a497;
+}
+nav {
+    background-color: #9a40a4;
+    height: 150px;
+    width: 1000px;
+   
+}
+
+#zone-A {
+    float: left;
+    width: 400px;
+    height: 250px;
+    background-color: #32a7a0;
+    bottom: auto;
+    
+}
+#zone-B {
+    float: left;
+    width: 400px;
+    height: 250px;
+    background-color: #d69f1b;
+}
+
+#zone-C {
+    float: left;
+    width: 400px;
+    height: 250px;
+    background-color: #b1b2d8;
+}
+#zone-D {
+    float: left;
+    width: 400px;
+    height: 250px;
+    background-color: #1217f2;
+}
+footer {
+    background-color: #40a497;
+    height: 80px;
+    margin: auto;
+}
+.clear {
+    clear: both;
+}

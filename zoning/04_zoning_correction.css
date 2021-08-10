@@ -1,0 +1,30 @@
+body {
+    background-color: #808000;
+    text-align: center;
+    font-size: 1.1em;
+}
+header {
+    width: 1200px;
+    height: 150px;
+    background-color: #ffc0cb;
+}
+main {
+    width: 1200px;
+    margin: auto;
+    background-color: #fff;
+}
+aside {
+    float: left;
+    width: 200px;
+    min-height: 600px;
+    background-color: #7ff798;
+}
+section {
+    float: left;
+    width: 800px;
+    min-height: 600px;
+    background-color: #54f5cb;
+}
+.clear {
+    clear: both;
+}

@@ -1,0 +1,34 @@
+body {
+    background-color: #fff;
+    color: white;
+    
+}
+.blue {
+    background-color: #7a43e0;
+}
+.vert {
+    background-color: #43e07a;
+}
+.A, .B {
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    border-radius: 15% ;
+    border: 3px solid black;
+    text-align: center;
+}
+
+/* .A, .B {
+    float: left;
+    width: 10em;
+    height: 10em;
+    float: left;
+    margin: 5px;
+    border: 0.2em solid black;
+    border-radius: 15%;
+    text-align: center;
+} */
+.clear {
+    clear: both;
+}

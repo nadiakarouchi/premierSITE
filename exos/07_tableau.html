@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tableau 7</title>
+    <style>
+        body {
+            background-color: oldlace;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        main {
+            margin: 0 auto;
+            width: 80%;
+            padding: 10px;
+            background-color: #fff;
+        }
+        h1 {
+            text-align: center;
+        }
+        table.adresse {
+            margin: auto;
+            width: 80%;
+            padding: 10px;
+            border-collapse: collapse;
+        }
+        table.adresse, .adresse td {
+            border: 1px solid salmon;
+        }
+        .adresse caption {
+            background-color: lightblue;
+            height: 60px;
+            /* line height hauteur de ligne identique à la hauteur du parent, a our effet de centre verticalement */
+            line-height: 60px;
+            border-top: 2px solid salmon;
+            border-left: 2px solid salmon;
+            border-right: 2px solid salmon;
+            font-size: 1.5em;
+            color: #fff;
+        }
+        .adresse thead {
+            background-color: rgb(95, 201, 236, 0.829);
+            font-weight: bold;
+        }
+        .adresse #bleu  {
+            background-color: rgb(205, 236, 236);
+        }
+        .adresse #blow {
+            background-color: rgb(104, 168, 177);
+        }
+        .adresse #head {
+            background-color: royalblue;
+        }
+        /* tableau 2 */
+
+        table.identifient, .identifient td {
+            border: 1px solid maroon;
+        }
+        table.identifient {
+            margin: auto;
+            width: 80%;
+            padding: 10px;
+            border-collapse: collapse;
+        }
+        .identifient caption {
+            background-color: lightsteelblue;
+            height: 50px;
+            line-height: 50px;
+            border-left: 2px solid maroon;
+            border-right: 2px solid maroon;
+            border-top: 2px solid maroon;
+            font-size: 2em;
+            color: red;
+        }
+        .identifient thead {
+            font-weight: bold;
+            background-color: darkorchid;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Tableau HTML: mes magasins préférés</h1>
+        <table class="adresse">
+            <caption>Adresse //fournisseurs</caption>
+            <thead>
+                <tr id="head">
+                    <th>Cie</th>
+                    <th>Contacts</th>
+                    <th>Pays</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr id="blow">
+                    <td>le pain des amis</td>
+                    <td>maria Duroc</td>
+                    <td>france</td>
+                </tr>
+                <tr id="bleu">
+                    <td>Los vinos buenos</td>
+                    <td>José Santos</td>
+                    <td>Espagne</td>
+                </tr>
+                <tr id="blow">
+                    <td>Kangoroo and cie</td>
+                    <td>mike mendel</td>
+                    <td>australie</td>
+                </tr>
+                <tr id="bleu">
+                    <td>twinnings</td>
+                    <td>helen spike</td>
+                    <td>Royaume-uni</td>
+                </tr>
+                <tr id="blow">
+                    <td>cycles laurent</td>
+                    <td>pierres luarent</td>
+                    <td>France</td>
+                </tr>
+                <tr id="bleu">
+                    <td>Santini</td>
+                    <td>Jacomo santini</td>
+                    <td>italie</td>
+                </tr>
+            </tbody>
+        </table>
+        <hr><br>
+        <h1>Un autre tableau avec des balises</h1>
+        <table class="identifient">
+            <caption>tableau</caption>
+            <thead>
+                <tr>
+                    <th>identifients</th>
+                    <th>noms</th>
+                    <th>prenoms</th>
+                    <th>pays</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>n°1122</td> 
+                    <td>karouchi</td>
+                    <td>nadia</td>
+                    <td>marocaine</td>
+                    
+                    
+                </tr>
+                <tr>
+                    <td>n°2122</td>
+                    <td>fasli</td>
+                    <td>sidra</td>
+                    <td>Française</td>
+                    
+                </tr>
+                <tr>
+                    <td>n°3122</td>
+                    <td>zourik</td>
+                    <td>asma</td>
+                    <td>marocaine</td>
+                
+                </tr>
+            </tbody>
+        </table>
+    </main>
+</body>
+</html>

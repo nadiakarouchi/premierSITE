@@ -64,10 +64,10 @@ h1 {
 }
 h2{
     font-size: 35px;
-    color: #2980b9;
+    color: #4d5d68;
     /* epaisseur des caractères */
     font-weight: bolder;
-    text-shadow: 1px 1px 2px rgb(199, 233, 135), 0 0 1em blue, 0 0 0.2em rgb(145, 235, 235);
+    text-shadow: 1px 1px 2px rgb(233, 159, 202), 0 0 1em rgb(219, 40, 139), 0 0 0.2em rgb(150, 17, 50);
 
     /* https://developer.mozilla.org/fr/docs/Web/CSS/text-shadow */
 }
@@ -545,15 +545,92 @@ iframe[allowullscreen] {
    background: rgba(255, 255, 255, 0.60);
    font-size: 120%;
    text-align: center;
+}
+/* fin page multimedia */
 
+/* page zoning */
+/* pour le zoning 1 */
+#zoning-1 {
+    width: 800px;
+    margin: auto;
+    color: white;
+}
+#zoning-1 header {
+    text-align: center;
+}
+#zoning-1 aside {
+    height: 525px;
+    width: 20%;
+    float: left;
+    background-color: orchid;
+}
+#zoning-1 section {
+    height: 525px;
+    width: 80%;
+    float: left;
+    margin: 0;
+    padding: 0;
+    background-color: olivedrab;
+}
+#zoning-2 {
+    width: 800px;
+    margin: auto;
+    color: white;
+    text-align: center;
+}
+#zoning-2 header {
+    text-align: center;
+    background-color: #800080;
+}  
+#zoning-2 aside {
+    height: 525px;
+    width: 10%;
+    float: left;
+    background-color: #a6d6c3;
+}
+#zoning-2 section {
+    height: 525px;
+    width: 80%;
+    float: left;
+    margin: 0;
+    padding: 0;
+    background-color: #ffd6d6;
 }
 
- 
-    
+/* pour le zoning 3 */
+
+#zoning-3 {
+    width: 800px;
+    margin: auto;
+}
+
+#zoning-3 section {
+    width: 50%;
+    min-height: 400px;
+    float: left;
+}
+
+#zoning-3 .bleu {
+   background-color:rgba(142, 142, 231, 0.658);
+}
+
+#zoning-3 .rose {
+   background-color:pink;
+}
+
+#zoning-3 footer {
+    margin: 0;
+   height: 150px;
+   background-color: rgb(173, 233, 104);
+}
 
 
-
-
+#zoning-3 div {
+   height: 15px;
+   margin: 0;
+   padding: 0;
+   background-color: rgb(216, 145, 83);
+}
 
 
 

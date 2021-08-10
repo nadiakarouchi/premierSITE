@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3 er zoning</title>
+    <style>
+        body {
+            background-color: pink;
+            /* padding-bottom: 40px; */
+        }
+        main {
+            width: 90%;
+            margin: auto;
+            /* background-color:#fff;  */
+        }
+        header {
+            float: left;
+            width: 100%;
+            height: 150px;
+            background-color: rgb(245, 138, 88);
+        }
+         aside {
+            float: left;
+            width: 25%;
+            min-height: 400px;
+            padding-left: 10px;
+            border-right: 10px solid springgreen;
+            background-color: rgb(202, 132, 138);
+            box-sizing: border-box;
+        }
+        section {
+            float: left;
+            width: 75%; 
+            min-height: 400px;
+            padding-left: 10px;
+            background-color: yellow;
+            box-sizing: border-box;
+        }
+        
+        footer {
+            min-height: 150px;
+            background-color: black;
+            color: white;
+            text-align: center;
+        }
+       footer p{
+           margin: 0;
+       }
+       h1 {
+           margin: 0;
+       }
+       clear {
+           clear: both;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <header>
+            <h1>Zone de l'en-tête</h1>
+            <p>1200px de large</p>
+        </header>
+        <aside>
+            <h3>Zone à gauche <code>&lt;aside</code></h3>
+            <p>1000px de large</p>
+        </aside>
+        <section>
+            <h2>Zone de droite au zone principale <code>&lt;section</code></h2>
+            <p>1000px de large</p>
+            <p><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit temporibus facilis eaque sunt, amet nihil apesentium est ratione quam dicta ab culpa eum deleniti quiLorem ipsum dolor sit amet consectetur adipisicing elit. Odit temporibus facilis eaque sunt, amet nihil aperiam error quidem quibusdam. Dignissimos praesentium est ratione quam dicta ab culpa eum deleniti qu
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit temporibus facilis eaque sunt, amet nihil aperiam error quidem quibusdam.  temporibus facilis eaque sunt, amet nihil aperiam error quidem quibusdam. Dignissimos praesentium est ratione quam dicta ab culpa eum deleniti qui
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit i
+                vi</span></p>
+        </section>
+        <div class="clear"></div>
+     <footer>
+        <p>pied de page <code>&lt;footer></code></p>
+    </footer>
+   </main>
+</body>
+</html>

@@ -1,0 +1,50 @@
+/* corretion zoning 7 - NK */
+body {
+    background-color: #eee8aa;
+    font-size: 1.2em;
+    text-align: center;
+    color: white;
+}
+#zoning-7 {
+    width: 800px;
+    margin: 0 auto;
+    background-color: #ff4500;
+}
+#zoning-7 header {
+    height: 80px;
+    background-color: #40a497;
+}
+#zoning-7 nav {
+    height: 30px;
+    background-color: #9a40a4;
+}
+#zoning-7 section {
+    height: 600px;
+    margin: 20px;
+    background-color: pink;
+    
+}
+ .a, .b, .c, .d {
+width: 50%;
+height: 300px;
+float: left;
+}
+.a {
+    background-color: yellow;
+}
+.b {
+    background-color: violet;
+}
+.c {
+    background-color: turquoise;
+}
+.d {
+    background-color: aqua;
+}
+#zoning-7 footer {
+    height: 40px;
+    background-color: #40a497;
+}
+.clear {
+    clear: both;
+}
